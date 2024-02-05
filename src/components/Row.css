@@ -17,6 +17,16 @@ padding: 20px;
  
 }
 
+.row_isLarge{
+   max-height: 250px;
+   
+}
+
+.row_isLarge:hover {
+   transform: scale(1.09);
+
+}
+
 .row_poster:hover {
    transform: scale(1.08);
 }
