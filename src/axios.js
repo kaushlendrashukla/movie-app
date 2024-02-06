@@ -5,3 +5,5 @@ const instance = axios.create({
 })
 
 export default instance;
+
+// https://api.themoviedb.org/3/discover/tv?api_key=${API_KEY}&with_netwoks=213
