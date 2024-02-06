@@ -23,7 +23,9 @@ function Banner() {
             style={{
                 backgroundSize: "cover",
               
-                backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`
+                // backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
+                backgroundSize: 'cover',
+                backgroundImage: `linear-gradient(to top, rgba(17, 17, 17, 8), rgba(0, 0, 0, 0)), url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
             }}
         >
             <div className='banner'>
